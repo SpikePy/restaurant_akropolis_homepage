@@ -1,3 +1,4 @@
+// Aktually this is not JSON but a JavaScript Object
 menu = {
     "Suppen": [
         {
