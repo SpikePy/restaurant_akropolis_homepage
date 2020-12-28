@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0 1em 0 1em;
     background-color: #e0a446;
 }
 
@@ -28,6 +29,8 @@ td {
 }
 
 #html_menu th {
+    text-transform: capitalize;
+    font-variant: small-caps;
     font-size: 1.7em;
 }
 
