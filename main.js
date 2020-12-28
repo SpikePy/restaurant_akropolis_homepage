@@ -5,7 +5,7 @@ function generate_menu() {
             console.log(`category: ${category}`)
 
             var entry = document.createElement("tr")
-            entry.innerHTML = `<td colspan="3"><h3>${category}</h3></td>`
+            entry.innerHTML = `<th colspan="3">${category}</th>`
             html_menu.appendChild(entry)
 
             // iterate over dishes of coresponding category and generate html
