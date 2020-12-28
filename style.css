@@ -79,3 +79,10 @@ td {
     background-color: rgba(200, 200, 200, .2);
     color: black;
 }
+
+.greek-meander {
+    background-image: url(greek_meander.svg);
+    background-repeat: repeat-x;
+    background-size: 3em 3em;
+    height: 3em;
+}
