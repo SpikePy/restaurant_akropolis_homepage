@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    padding: 0 1em 0 1em;
-    background-color: #e0a446;
+    padding: 0;
+    background-color: #ffd37f;
+    text-align: center;
 }
 
 h1,h2 {
@@ -13,6 +14,10 @@ h1 {
     width: 100%;
     text-align: center;
     font-size: 5em;
+    margin-bottom: 0;
+}
+.subtitle {
+    margin-bottom: 4em;
 }
 
 th {
@@ -22,6 +27,20 @@ th {
 td {
     vertical-align: top;
     padding: .5em;
+}
+
+header {
+    background-color: #e0a446;
+    margin-bottom: 3em;
+    border-bottom: .2em solid black;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 0;
+    padding: .1em;
+    text-align: center;
+    background-color: #e0a446;
 }
 
 #table-opening-hours td {
@@ -35,16 +54,30 @@ td {
 }
 
 .title {
-    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.menu {
+    padding: 0 1em 0 1em;
 }
 
 .hint {
     display: inline-block;
-    background-color: #ffdf938c;
+    background-color: #ffd37f;
+    border: .1em solid black;
     font-weight: bold;
     font-size: 1.5em;
-    padding: 2em;
+    padding: 1em;
     margin: 2em;
+    border-radius: 1em;
+}
+
+.contact p {
+    margin: .4em;
+}
+
+#table-opening-hours td {
+    padding: .1em .3em .1em;
 }
 
 .table-center {
@@ -75,13 +108,7 @@ td {
 }
 
 
-.footer {
-    margin-top: 2em;
-    padding: .1em;
-    text-align: center;
-    background-color: rgba(200, 200, 200, .2);
-    color: black;
-}
+
 
 .greek-meander {
     background-image: url(greek_meander.svg);

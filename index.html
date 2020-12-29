@@ -12,12 +12,15 @@
 </head>
 
 <body onload="generate_menu()">
-    <div class="greek-meander">
-    </div>
-    <div class="title">
-        <h1>Akropolis</h1>
-
-        <p>Griechisches Restaurant in Neustadt (Orla)</p>
+    <header>
+        <div class="title">
+            <div class="greek-meander"></div>
+            <h1>Akropolis</h1>
+            <div class="subtitle">
+                <p>Griechisches Restaurant in Neustadt (Orla)</p>
+            </div>
+            <div class="greek-meander"></div>
+        </div>
 
         <div class="contact">
             <p>Inhaber: Christou Christos </p>
@@ -48,11 +51,12 @@
         <div class="hint">
             <p>10&thinsp;% Rabatt auf alle Speisen zum mitnehmen</p>
         </div>
+    </header>
+
+
+    <div class="menu">
+        <table id="html_menu" class="table-center"></table>
     </div>
-
-
-    <table id="html_menu" class="table-center"></table>
-
 
 
     <div class="special_ingedients">
@@ -142,10 +146,9 @@
         </table>
     </div>
 
-    <div class="footer">
+    <footer>
         <p>Diese Seite wurde zu Testzwecken erstellt von René Hoffmann</p>
-    </div>
+    </footer>
 
-    <div class="greek-meander">
 </body>
 </html>
