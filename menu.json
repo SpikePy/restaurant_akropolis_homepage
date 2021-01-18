@@ -1,0 +1,108 @@
+// Aktually this is not JSON but a JavaScript Object
+menu = {
+    "Suppen": [
+        {
+            "id": 1,
+            "title": "Griechische Hühnersuppe",
+            "subtitle": "mit Brot",
+            "special_ingedients": "",
+            "price": 3.5,
+        },
+        {
+            "id": 2,
+            "title": "Gulaschsuppe",
+            "subtitle": "mit Brot",
+            "special_ingedients": "",
+            "price": 3.5,
+        },
+        {
+            "id": 3,
+            "title": "Tomatensuppe",
+            "subtitle": "mit Brot",
+            "special_ingedients": "",
+            "price": 3.5,
+        },
+        {
+            "id": 4,
+            "title": "Swiebelsuppe",
+            "subtitle": "mit Brot",
+            "special_ingedients": "",
+            "price": 3.5,
+        },
+    ],
+    "Vorspeisen": [],
+    "Salate": [],
+    "Beilagen": [],
+    "Fischgerichte": [],
+    "Vom Grill": [],
+    "Vom Rind": [],
+    "Vom Lamm": [],
+    "Vom Backofen": [],
+    "Nudeln": [],
+    "Für unseres kleinen Gäste": [],
+    "Vom Schwein": [],
+    "Von der Pute": [
+        {
+            "id": 85,
+            "title": "Putenschnitzel",
+            "subtitle": "mit Pommes, Reis und Salat ",
+            "special_ingedients": "a1, c, g",
+            "price": 13.5,
+        },
+    ],
+    "Vom Hähnchen": [],
+    "Vegetarische Gerichte": [
+        {
+            "id": 200,
+            "title": "Gemüseauflauf",
+            "subtitle": "verschiedene Gemüsesorten der Saison in Sahnesoße mit Käse überbacken und Salat",
+            "special_ingedients": "g",
+            "price": 10.5,
+        },
+        {
+            "id": 201,
+            "title": "Pfannenreis mit Gemse",
+            "subtitle": "in Sahnesoße und Salat",
+            "special_ingedients": "g",
+            "price": 10.5,
+      },
+    ],
+    "Spezialitäten des Hauses": [],
+    "Krabbenspezialitäten": [],
+    "Nachspeisen": [],
+    // Aktionskarte
+    "Salate": [],
+    "Vorspeisen": [],
+    "Hauptgerichte": [
+        {
+            "id": 238,
+            "title": "Kleftiko",
+            "subtitle": "Schweinefleisch in Kermaikschale mit Zwiebeln, Paprika, Tomaten, Feta-Käse, Hartkäse gewürfeltem Oregano, Olivenöl dazu Kartoffelscheiben und Salat ",
+            "special_ingedients": "8",
+            "price": 14.5,
+        },
+        {
+            "id": 239,
+            "title": "Orientalischer-Bürger",
+            "subtitle": "3 Hacksteaks mit Tomatensoße, griechischem Joghurt auf Pita-Brot, dazu Kartoffelscheiben und Salat ",
+            "special_ingedients": "a1,g",
+            "price": 14.5,
+        },
+        {
+            "id": 240,
+            "title": "Gegrilltes Schweinesteak",
+            "subtitle": "mit Tomaten, Zwiebeln und Käse überbacken, dazu unsere hausgemachte Kräuterbuttersoße, Kartoffelecken und Salat",
+            "special_ingedients": "g",
+            "price": 14.5,
+        },
+    ],
+    "Nachspeise": [
+        {
+            "id": 245,
+            "title": "Pannacotta",
+            "subtitle": "mit Schoko-, Erdbeer- oder Karamellsoße",
+            "special_ingedients": "",
+            "price": 4.5,
+        },
+    ],
+}
